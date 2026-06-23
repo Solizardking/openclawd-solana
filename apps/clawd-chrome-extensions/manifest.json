@@ -1,0 +1,76 @@
+{
+  "manifest_version": 3,
+  "name": "Clawd pAGENT Browser",
+  "short_name": "Clawd pAGENT",
+  "version": "3.0.0",
+  "description": "AI agent browser with wallet, trading, Grok vision, and Clawd pAGENT harness integration. Your keys never leave your machine.",
+  "author": "Solana Clawd",
+  "homepage_url": "https://github.com/Solizardking/solana-clawd",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png"
+    },
+    "default_title": "Clawd pAGENT Browser"
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "alarms",
+    "tabs"
+  ],
+  "host_permissions": [
+    "http://127.0.0.1:7777/*",
+    "http://127.0.0.1:18800/*",
+    "http://127.0.0.1:18790/*",
+    "http://localhost:7777/*",
+    "http://localhost:18800/*",
+    "http://localhost:18790/*",
+    "http://127.0.0.1:8420/*",
+    "http://localhost:8420/*",
+    "http://127.0.0.1:3001/*",
+    "http://localhost:3001/*",
+    "http://127.0.0.1:38401/*",
+    "http://localhost:38401/*",
+    "http://127.0.0.1:9099/*",
+    "http://localhost:9099/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://x402.wtf/*",
+        "https://*.x402.wtf/*",
+        "https://cheshireterminal.ai/*",
+        "https://*.cheshireterminal.ai/*",
+        "http://localhost/*",
+        "http://127.0.0.1/*"
+      ],
+      "js": ["site-bridge.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "externally_connectable": {
+    "matches": [
+      "https://x402.wtf/*",
+      "https://*.x402.wtf/*",
+      "https://cheshireterminal.ai/*",
+      "https://*.cheshireterminal.ai/*",
+      "http://localhost:*/*",
+      "http://127.0.0.1:*/*"
+    ]
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}

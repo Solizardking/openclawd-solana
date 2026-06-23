@@ -1,0 +1,18 @@
+{
+    "name": "LobsterLibrary",
+    "description": "The nano Solana financial trading, deep research, ML prediction market & agentic vision AI agent library. 82+ specialized Solana agents.",
+    "version": "2.0.0",
+    "publisher": "x402agent",
+    "repository": "https://github.com/x402agent/LobsterLibrary",
+    "language": "TypeScript",
+    "topics": [
+        "solana",
+        "x402",
+        "openclawd",
+        "lobster-library",
+        "ai-agents",
+        "defi",
+        "trading",
+        "open-source"
+    ]
+}

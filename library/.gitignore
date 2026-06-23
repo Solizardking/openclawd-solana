@@ -1,0 +1,59 @@
+# Gitignore for Lobster Library
+################################################################
+
+# general
+.DS_Store
+.idea
+.vscode
+.history
+.temp
+venv
+temp
+tmp
+
+# dependencies
+node_modules
+*.log
+*.lock
+package-lock.json
+
+# ci
+.coverage
+.eslintcache
+.stylelintcache
+
+# production
+dist
+es
+logs
+test-output
+
+# umi
+.umi
+.umi-production
+.umi-test
+.dumi/tmp*
+
+# husky
+.husky/prepare-commit-msg
+
+# secrets & credentials — never commit these
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+*.pem
+*.key
+keypair.json
+wallet.json
+id.json
+
+# misc
+# add other ignore file below
+public
+
+# macOS
+.DS_Store
+__MACOSX
+

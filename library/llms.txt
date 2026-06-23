@@ -1,0 +1,23 @@
+# 🦞 Lobster Library
+
+> The nano Solana financial trading, deep research, ML prediction market & agentic vision AI agent library
+
+## Docs
+
+- [README](https://x402.wtf/library)
+- [API Reference](https://x402.wtf/library/schema/speraxAgentSchema_v1.json)
+- [Contributing](https://x402.wtf/library/CONTRIBUTING.md)
+- [Agent Index](https://x402.wtf/library/index.json)
+
+## Live API (x402.wtf/library)
+
+- Index: <https://x402.wtf/library/index.json>
+- Meta: <https://x402.wtf/library/meta.json>
+- Schema: <https://x402.wtf/library/schema/speraxAgentSchema_v1.json>
+- Individual agent: <https://x402.wtf/library/{agent-id}.json>
+- Landing page: <https://x402.wtf/library/>
+
+## npm Packages
+
+- `@openclawd/lobster-library` — JSON catalog + schema (this package)
+- `agentwallet-vault` — encrypted Solana + EVM keypair vault with REST API (`agentwallet serve`)
