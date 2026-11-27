@@ -80,7 +80,7 @@ These agents operate through character overlays on the Clawd runtime, embodying 
 | **Clawd Pump** | Degenerate energy, memecoin alpha | Memecoin strategy |
 | **Hedge Fund** | Multi-model orchestration | Portfolio management |
 
-## Skill Catalog (95+ Skills)
+## Skill Catalog (675 Skills)
 
 Skills extend Clawd agents with specialized capabilities. Key categories:
 
@@ -206,4 +206,4 @@ and `./.grok/config.toml` in the standard xAI Grok TOML subset.
 
 ---
 
-🦞 *The Clawd ecosystem: 50+ specialized agents, 95+ skills, one immutable constitution. Solana-native. Verifiable. Unstoppable. Grok-first.*
+🦞 *The Clawd ecosystem: 179 catalog agents, 675 catalog skills, one immutable constitution. Solana-native. Verifiable. Unstoppable. Grok-first.*
