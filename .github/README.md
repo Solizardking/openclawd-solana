@@ -6,7 +6,7 @@
 
 <div align="center">
 
-<img src="./assets/clawd-banner.png" alt="Clawd — Sovereign Pixel Lobster" width="400" />
+<img src="./assets/clawd-banner.png" alt="CLAWD BOT — The Clawd Bot · sovereign Solana agent · zero-knowledge · zk primitives" width="100%" />
 
 ```
 ███████╗██╗  ██╗   ██████╗██╗       █████╗ ██╗    ██╗██████╗
